@@ -1,7 +1,6 @@
 import tensorflow as tf
 import datetime
 
-
 def cpu_test():
 
     # running
@@ -18,7 +17,7 @@ def cpu_test():
     # Creates a session with log_device_placement set to True.
     sess1 = tf.Session(config=tf.ConfigProto(log_device_placement=True))
     # Runs the op.
-    for i in range(59999):
+    for i in range(100):
         sess1.run(c)
     print(sess1.run(c))
     sess1.close()
@@ -43,7 +42,7 @@ def gpu_test():
     # Creates a session with log_device_placement set to True.
     sess2 = tf.Session(config=tf.ConfigProto(log_device_placement=True))
     # Runs the op.
-    for i in range(59999):
+    for i in range(100):
         sess2.run(c)
     print(sess2.run(c))
     sess2.close()
@@ -56,5 +55,5 @@ if __name__ == "__main__":
     while True:
         time1 = cpu_test()
         time2 = gpu_test()
-        print('time1:', time1)
-        print('time2:', time2)
+        print('CPU time:', time1)
+        print('GPU time:', time2)

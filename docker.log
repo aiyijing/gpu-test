@@ -196,8 +196,8 @@ b_1: (Const): /job:localhost/replica:0/task:0/device:GPU:0
  [ 24300.  48600.  72900.  97200. 121500. 145800.]
  [ 18225.  36450.  54675.  72900.  91125. 109350.]
  [ 24300.  48600.  72900.  97200. 121500. 145800.]]
-('time1:', 631048)
-('time2:', 208316)
+('CPU time:', 631048)
+('GPU time:', 208316)
 cpu version
 Device mapping:
 /job:localhost/replica:0/task:0/device:XLA_GPU:0 -> device: XLA_GPU device
@@ -334,8 +334,8 @@ b_3: (Const): /job:localhost/replica:0/task:0/device:GPU:0
  [ 24300.  48600.  72900.  97200. 121500. 145800.]
  [ 18225.  36450.  54675.  72900.  91125. 109350.]
  [ 24300.  48600.  72900.  97200. 121500. 145800.]]
-('time1:', 468731)
-('time2:', 964453)
+('CPU time:', 468731)
+('GPU time:', 964453)
 cpu version
 Device mapping:
 /job:localhost/replica:0/task:0/device:XLA_GPU:0 -> device: XLA_GPU device
@@ -498,8 +498,8 @@ b_5: (Const): /job:localhost/replica:0/task:0/device:GPU:0
  [ 24300.  48600.  72900.  97200. 121500. 145800.]
  [ 18225.  36450.  54675.  72900.  91125. 109350.]
  [ 24300.  48600.  72900.  97200. 121500. 145800.]]
-('time1:', 564568)
-('time2:', 46337)
+('CPU time:', 564568)
+('GPU time:', 46337)
 cpu version
 Device mapping:
 /job:localhost/replica:0/task:0/device:XLA_GPU:0 -> device: XLA_GPU device
@@ -687,8 +687,8 @@ b_7: (Const): /job:localhost/replica:0/task:0/device:GPU:0
  [ 24300.  48600.  72900.  97200. 121500. 145800.]
  [ 18225.  36450.  54675.  72900.  91125. 109350.]
  [ 24300.  48600.  72900.  97200. 121500. 145800.]]
-('time1:', 496824)
-('time2:', 158922)
+('CPU time:', 496824)
+('GPU time:', 158922)
 cpu version
 Device mapping:
 /job:2019-09-28 21:17:34.998383: I tensorflow/core/common_runtime/direct_session.cc:296] Device mapping:
@@ -968,8 +968,8 @@ b_9: (Const): /job:localhost/replica:0/task:0/device:GPU:0
  [ 24300.  48600.  72900.  97200. 121500. 145800.]
  [ 18225.  36450.  54675.  72900.  91125. 109350.]
  [ 24300.  48600.  72900.  97200. 121500. 145800.]]
-('time1:', 693865)
-('time2:', 87739)
+('CPU time:', 693865)
+('GPU time:', 87739)
 cpu version
 Device mapping:
 /job:localhost/replica:0/task:0/device:XLA_GPU:0 -> device: XLA_GPU device
@@ -1277,8 +1277,8 @@ b_11: (Const): /job:localhost/replica:0/task:0/device:GPU:0
  [ 24300.  48600.  72900.  97200. 121500. 145800.]
  [ 18225.  36450.  54675.  72900.  91125. 109350.]
  [ 24300.  48600.  72900.  97200. 121500. 145800.]]
-('time1:', 775092)
-('time2:', 24056)
+('CPU time:', 775092)
+('GPU time:', 24056)
 cpu version
 Device mapping:
 /job:localhost/replica:0/task:0/device:XLA_GPU:0 -> device: XLA_GPU device
@@ -1653,8 +1653,8 @@ b_13: (Const): /job:localhost/replica:0/task:0/device:GPU:0
  [ 24300.  48600.  72900.  97200. 121500. 145800.]
  [ 18225.  36450.  54675.  72900.  91125. 109350.]
  [ 24300.  48600.  72900.  97200. 121500. 145800.]]
-('time1:', 623336)
-('time2:', 923256)
+('CPU time:', 623336)
+('GPU time:', 923256)
 cpu version
 Device mapping:
 /job:localhost/replica:0/task:0/device:XLA_GPU:0 -> device: XLA_GPU device
