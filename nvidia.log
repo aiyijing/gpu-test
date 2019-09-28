@@ -1,0 +1,24 @@
+root@aiyijing:/home/aiyijing/gpu-test# nvidia-smi 
+Sun Sep 29 05:17:34 2019       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 435.21       Driver Version: 435.21       CUDA Version: 10.1     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|===============================+======================+======================|
+|   0  GeForce GTX 1650    Off  | 00000000:01:00.0 Off |                  N/A |
+| N/A   51C    P0    15W /  N/A |   3723MiB /  3911MiB |      2%      Default |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                       GPU Memory |
+|  GPU       PID   Type   Process name                             Usage      |
+|=============================================================================|
+|    0      1520      G   /usr/lib/xorg/Xorg                            28MiB |
+|    0      1712      G   /usr/bin/gnome-shell                          48MiB |
+|    0      2375      G   /usr/lib/xorg/Xorg                           140MiB |
+|    0      2572      G   /usr/bin/gnome-shell                         119MiB |
+|    0      3240      G   ...quest-channel-token=8417052889887526535    74MiB |
+|    0      6092      C   python                                      3299MiB |
++-----------------------------------------------------------------------------+
+

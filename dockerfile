@@ -1,4 +1,4 @@
-FROM tensorflow/tensorflow:latest-devel-gpu-py3
+FROM tensorflow/tensorflow:latest-gpu
 
 ADD test.py /tf/
 ADD start.sh /tf/
